@@ -9,10 +9,12 @@ There is some basic groundwork for XACT as well.
 After the Star Fetchers: Pilot community started to use LeonBlade's [xnbcli](https://github.com/LeonBlade/xnbcli) tool, a few errors started to pop up:
 
 _MonoGame.Extended.BitmapFonts.BitmapFontReader
+
 Microsoft.Xna.Framework.Content.SoundEffectReader
+
 Microsoft.Xna.Framework.Content.VideoReader_
 
-And so I've begun work, modifying the tool to handle these type of files SoundEffect, BitmapFont, VideoReader
+And so I've begun work, modifying the tool to handle these type of files SoundEffect, BitmapFont, VideoReader.
 
 
 The end goal for this project is to serve as a CLI for a GUI wrapper to leverage so the average user can interface with
