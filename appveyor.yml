@@ -31,7 +31,7 @@ deploy:
   release: $(appveyor_repo_tag_name)
   provider: GitHub
   auth_token:
-    secure: O6Rsj+hoS5X7Q1u7TjtFwjRN53ohwjF8Mik/BpVidoefAag5FfpxoWqS5GTdJECG
+    secure: non+6EH5t/R9Br3PFWpBkm5pFKV11VqNfAcRmqENsNPk8q5pIAHiuWR/GiMH3epz
   artifact: xnbcli-windows-%PLATFORM%.zip
   on:
     branch: master
