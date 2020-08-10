@@ -9,8 +9,7 @@ install:
 - npm install pkg
 - "./.travis.build.sh"
 deploy:
-  edge: true
-  cleanup: true
+  skip_cleanup: true
   provider: releases
   api_key:
     secure: lTcrzTEGxH/TDpYSvu9MdaorWLLPGIut7q6C6SAVGLLE/fUtfypjWgdbzaKvC7/N2lxyIr5ZQlrM/ZKjEHOxkQfNcz4OGwtB/WXVk3b+0Oj8sRuvdt1S6j+LurJ3ZRgr5UXon5FTnJ4GhAJG954KVRyv2ProgA1dzXcIa02TlNE8/PQGvI/nzb5VAc0NtX8Fz99f7dxibHdUqvnhvOgqwtL0yOsAMbaaSb0Q+4yZcIJrrR/2krrh/JOjQuVJh9pZ1+mSVNnOIiNZqi9RpEDykac5ELYTbZaLMScGDisXqSWV2r0QzUd68i4wiMKDgDLCFwcXxQcPEybYLuEAy9X1jBcFC92YubNeE/ijjgF6Tc3CFCujuuXth99hI+W/TVHk1om5+P1GhqQGKdG8hbHEI89DzJSWH6Whv8UqXQdWqLEaYw5SWIcKzL2t593kGe4IiZxWEvg7pqA7192GHI71PV6T3gHvMtQjJy8MFtt38FXPZho8Byz6aQlNGbdV/2TshxSeBTT1kt8+vekSrU+bjciRs7daLQxzLUrbGhMA/YPEYCJP0UTK8TGojnMYP3dqUoCtY0ExzYHXHT5zE9Tl3KaKcgdk1JCErKRDuwvHI2fKKN2Mg0V/LV/nC7MmVpVzd15sE9LJL7hyZ2nEpCbLWGCao4llzqAZ8jd93vJ8Pqs=

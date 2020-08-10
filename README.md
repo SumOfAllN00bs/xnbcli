@@ -7,9 +7,11 @@ A CLI tool for XNB packing/unpacking, original purpose was for Stardew Valley.
 This tool currently supports unpacking all LZX compressed XNB files for Stardew Valley.
 There is some basic groundwork for XACT as well.
 After the Star Fetchers: Pilot community started to use LeonBlade's [xnbcli](https://github.com/LeonBlade/xnbcli) tool, a few errors started to pop up:
+
 _MonoGame.Extended.BitmapFonts.BitmapFontReader
 Microsoft.Xna.Framework.Content.SoundEffectReader
 Microsoft.Xna.Framework.Content.VideoReader_
+
 And so I've begun work, modifying the tool to handle these type of files SoundEffect, BitmapFont, VideoReader
 
 
