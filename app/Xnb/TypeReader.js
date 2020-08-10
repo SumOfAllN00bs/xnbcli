@@ -64,6 +64,10 @@ const simplifyType = type => {
         case 'Microsoft.Xna.Framework.Content.Texture2DReader':
             return 'Texture2D';
 
+        // SoundEffect
+        case 'Microsoft.Xna.Framework.Content.SoundEffectReader':
+            return 'SoundEffect';
+
         // Vector2
         case 'Microsoft.Xna.Framework.Content.Vector2Reader':
         case 'Microsoft.Xna.Framework.Vector2':

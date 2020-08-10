@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const mkdirp = require('mkdirp');
 const PNG = require('pngjs').PNG;
+const WaveFile = require('wavefile').WaveFile;
 const Log = require('./Log');
 const XnbError = require('./XnbError');
 
@@ -62,6 +63,18 @@ const exportFile = (filename, xnbObject) => {
                 );
 
                 extension = 'png';
+                break;
+            
+            // SoundEffect to WAV
+            case 'SoundEffect':
+                var wav = new WaveFile();
+                wav.fromScratch(
+                    exported.channels,
+                    exported.sampleRate,
+                    exported.bitDepth.toString(),
+                    exported.data);
+                buffer = wav.toBuffer();
+                extension = 'wav';
                 break;
 
             // Compiled Effects
