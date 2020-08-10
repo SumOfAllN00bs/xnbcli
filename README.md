@@ -8,11 +8,11 @@ This tool currently supports unpacking all LZX compressed XNB files for Stardew 
 There is some basic groundwork for XACT as well.
 After the Star Fetchers: Pilot community started to use LeonBlade's [xnbcli](https://github.com/LeonBlade/xnbcli) tool, a few errors started to pop up:
 
-_MonoGame.Extended.BitmapFonts.BitmapFontReader
+_MonoGame.Extended.BitmapFonts.BitmapFontReader_
 
-Microsoft.Xna.Framework.Content.SoundEffectReader
+_Microsoft.Xna.Framework.Content.SoundEffectReader_
 
-Microsoft.Xna.Framework.Content.VideoReader_
+_Microsoft.Xna.Framework.Content.VideoReader_
 
 And so I've begun work, modifying the tool to handle these type of files SoundEffect, BitmapFont, VideoReader.
 
